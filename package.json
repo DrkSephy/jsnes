@@ -1,0 +1,32 @@
+{
+  "name": "jsnes",
+  "version": "0.0.1",
+  "description": "NES Emulator written in JavaScript",
+  "main": "main.js",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "node-libs-browser": "*",
+    "webpack": "*"
+  },
+  "scripts": {
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrkSephy/jsnes"
+  },
+  "keywords": [
+    "nes",
+    "es6",
+    "nintendo",
+    "emulator",
+    "javascript"
+  ],
+  "author": "David Leonard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrkSephy/jsnes/issues"
+  },
+  "homepage": "https://github.com/DrkSephy/jsnes"
+}
