@@ -1,3 +1,7 @@
+/*
+	CPU.js
+*/
+
 class Cpu {
 	
 	constructor() {
