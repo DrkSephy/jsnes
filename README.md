@@ -4,6 +4,9 @@ Nintendo Emulator written in JavaScript
 ## Resources
 
 * [6502 Processor Registers](http://nesdev.com/6502.txt)
+* [Nintendo Hardware Manual](http://nesdev.com/NESDoc.pdf)
+* [Nintendo Emulator in JavaScript](https://github.com/bfirsh/jsnes)
+* [Game Boy Emulator](http://imrannazar.com/GameBoy-Emulation-in-JavaScript)
 
 # LICENSE
 
