@@ -1,6 +1,10 @@
 # jsnes
 Nintendo Emulator written in JavaScript
 
+## Resources
+
+* [6502 Processor Registers](http://nesdev.com/6502.txt)
+
 # LICENSE
 
 The MIT License (MIT)
