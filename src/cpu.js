@@ -29,5 +29,61 @@ class Cpu {
 		console.log("Hello world!");
 	}
 
+	emulate() {
+		switch(addrMode) {
+			case 0: {
+				// Zero Page Mode
+			}
+
+			case 1: {
+				// Relative Mode
+			}
+
+			case 2: {
+				// Ignore this, the address is passed inside the instruction
+			}
+
+			case 3: {
+				// Absolute Mode
+			}
+
+			case 4: {
+				// Accumulator Mode
+			}
+
+			case 5: {
+				// Immediate Mode 
+			}
+
+			case 6: {
+				// Zero Page Indexed Mode (X)
+			}
+
+			case 7: {
+				// Zero Page Index Mode (Y)
+			}
+
+			case 8: {
+				// Absolute Index Mode (X)
+			}
+
+			case 9: {
+				// Absolute Index Mode (Y)
+			}
+
+			case 10: {
+				// Pre-Index Indirect Mode
+			}
+
+			case 11: {
+				// Post-Index Indirect Mode
+			}
+
+			case 12: {
+				// Indirect Absolute Mode 
+			}
+		}
+	}
+
 }
 export default Cpu;
