@@ -25,8 +25,19 @@ class Cpu {
         this.SIGN = null; 			// Sign Flag (Bit 7 of Status Register)
 	}
 
-	testFunc() {
-		console.log("Hello world!");
+	reset() {
+		// Reset memory
+		this.mem = new Array(0x10000);
+		// Reset CPU registers
+		this.REG_ACC = 0;
+		this.REG_X = 0;
+		this.REG_Y = 0;
+		// Reset the stack pointer
+		this.REG_SP = 0;
+		// Reset the program counter
+		this.REG_PC = 0x8000-1;
+		// Reset the status register
+		this.REG_SR = 0x28;
 	}
 
 	emulate() {
