@@ -25,6 +25,10 @@ class Cpu {
         this.SIGN = null; 			// Sign Flag (Bit 7 of Status Register)
 	}
 
+	testFunc() {
+		console.log("Running emulator");
+	}
+
 	reset() {
 		// Reset memory
 		this.mem = new Array(0x10000);
