@@ -7,6 +7,11 @@ Nintendo Emulator written in JavaScript
 * [Nintendo Hardware Manual](http://nesdev.com/NESDoc.pdf)
 * [Nintendo Emulator in JavaScript](https://github.com/bfirsh/jsnes)
 * [Game Boy Emulator](http://imrannazar.com/GameBoy-Emulation-in-JavaScript)
+* [Nesdev](http://nesdev.com/)
+* [NES PPU Description](http://nesdev.com/nesgfx.txt)
+* [NES Architecture](http://fms.komkon.org/EMUL8/NES.html)
+* [2A03 Technical Reference](http://nesdev.com/2A03%20technical%20reference.txt)
+* [NES Technical FAQ](http://nesdev.com/NESTechFAQ.htm#whatprocessor)
 
 # LICENSE
 
