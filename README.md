@@ -12,6 +12,8 @@ Nintendo Emulator written in JavaScript
 * [NES Architecture](http://fms.komkon.org/EMUL8/NES.html)
 * [2A03 Technical Reference](http://nesdev.com/2A03%20technical%20reference.txt)
 * [NES Technical FAQ](http://nesdev.com/NESTechFAQ.htm#whatprocessor)
+* [NES Mappers](http://wiki.nesdev.com/w/index.php/Mapper)
+* [NES in C++](https://www.youtube.com/watch?v=y71lli8MS8s)
 
 # LICENSE
 
