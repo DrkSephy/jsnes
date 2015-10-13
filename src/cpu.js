@@ -18,8 +18,8 @@ class Cpu {
 		this.CF = null;      		// Carry Flag (Bit 0 of Status Register)
         this.ZF = null; 	 		// Zero Flag (Bit 1 of Status Register)
         this.F_CARRY = null; 		// Carry flag
-        this.F_INTERRUPT = null; 		// Interrupt Flag (Bit 2 of Status Register)
-        this.F_DECIMAL = null;  		// Decimal Mode Flag (Bit 3 of Status Register)
+        this.F_INTERRUPT = null; 	// Interrupt Flag (Bit 2 of Status Register)
+        this.F_DECIMAL = null;  	// Decimal Mode Flag (Bit 3 of Status Register)
         this.SOFT_INTERRUPT = null; // Software Interrupt Flag (Bit 4 of Status Register)
         this.LOGICAL = 0x00000001; 	// Bit 5 of Status Register not used, set to logical 1 at all times
         this.OVERFLOW = null; 		// Overflow flag (Bit 6 of Status Register)
@@ -31,7 +31,9 @@ class Cpu {
 		this.reset();
 	}
 
-	testFunc() {
+	// Emulate a single CPU Instruction
+	// Implement all opcodes here
+	emulate() {
 		console.log("Running emulator");	
 	}
 
