@@ -9,6 +9,13 @@ class cpu {
       pc: 0     // Program Counter
     }
   }
+
+  reset () {
+    // Reset x, y, a and p registers
+    this.r.a = this.r.x = this.r.y = this.r.p = 0;
+    // Reset stack pointer
+    this.r.s = 0xff;
+  }
 }
 
 export default cpu;
