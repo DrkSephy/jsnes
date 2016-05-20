@@ -1,12 +1,12 @@
 class cpu {
   constructor() {
     this.r = {
-      a: 0,
-      x: 0,
-      y: 0,
-      s: 0xff,
-      p: 0,
-      pc: 0
+      a: 0,     // Accumulator
+      x: 0,     // General Purpose X
+      y: 0,     // General Purpose Y
+      s: 0xff,  // Single-byte stack pointer
+      p: 0,     // Status Register (6 bits)
+      pc: 0     // Program Counter
     }
   }
 }
