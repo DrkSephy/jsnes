@@ -26,6 +26,7 @@ Nintendo Emulator written in JavaScript
   * [6502 Undocumented Opcodes](http://www.ataripreservation.org/websites/freddy.offenga/illopc31.txt)
   * [Extra Instructions Of The 65XX Series CPU](http://www.ffd2.com/fridge/docs/6502-NMOS.extra.opcodes)
   * [Programming with unofficial opcodes](http://wiki.nesdev.com/w/index.php/Programming_with_unofficial_opcodes)
+ * [6502 Emulator in Python](https://github.com/docmarionum1/py65emu)
 
 # LICENSE
 
