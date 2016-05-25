@@ -40,11 +40,30 @@ class cpu {
     }
   }
 
-  reset () {
+  reset() {
     // Reset x, y, a and p registers
     this.r.a = this.r.x = this.r.y = this.r.p = 0;
     // Reset stack pointer
     this.r.s = 0xff;
+  }
+
+  clearFlags() {
+    self.p = 0
+  }
+
+  setFlag(flag, value) {
+    if (value) {
+      self.p = self.p | self.flags[flag]
+    }
+  }
+
+  /**
+   * Z flag is set if value is zero.
+   * N gets set to same value as bit 7 of value.
+  */
+  setZeroFlag(value) {
+    this.setFlag('Z', value);
+    this.setFlag('N', value & 0x80);
   }
 }
 
