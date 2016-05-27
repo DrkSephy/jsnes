@@ -54,7 +54,7 @@ class cpu {
    * Clear all flags.
   */
   clearFlags() {
-    self.p = 0
+    this.p = 0
   }
 
   /**
@@ -62,8 +62,17 @@ class cpu {
   */
   setFlag(flag, value) {
     if (value) {
-      self.p = self.p | self.flags[flag]
+      this.p = this.p | this.flags[flag]
+    } else {
+      this.clearFlag(flag);
     }
+  }
+
+  /**
+   * Clears an individual flag.
+  */
+  clearFlag(flag) {
+    this.p &= (255 - this.flags[flag]);
   }
 
   /**
