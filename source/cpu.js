@@ -40,6 +40,9 @@ class cpu {
     }
   }
 
+  /**
+   * Reset all the registers.
+  */
   reset() {
     // Reset x, y, a and p registers
     this.r.a = this.r.x = this.r.y = this.r.p = 0;
@@ -47,10 +50,16 @@ class cpu {
     this.r.s = 0xff;
   }
 
+  /**
+   * Clear all flags.
+  */
   clearFlags() {
     self.p = 0
   }
 
+  /**
+   * Set an individual special flag.
+  */
   setFlag(flag, value) {
     if (value) {
       self.p = self.p | self.flags[flag]
